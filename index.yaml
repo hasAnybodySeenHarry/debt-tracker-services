@@ -14,4 +14,18 @@ entries:
     urls:
     - https://raw.githubusercontent.com/hasAnybodySeenHarry/debt-tracker-services/production/apps/mailer-0.0.6.tgz
     version: 0.0.6
-generated: "2024-09-15T08:04:37.782838647Z"
+  notifier:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2024-09-15T08:11:16.163380311Z"
+    description: A Helm chart for deploying the notifier service
+    digest: 8200a54589675fd2bc1c3144cfe3626a289da13dd2c3380d518010c6167e02f8
+    home: https://github.com/hasAnybodySeenHarry/notifier
+    name: notifier
+    sources:
+    - https://github.com/hasAnybodySeenHarry/notifier
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/hasAnybodySeenHarry/debt-tracker-services/production/apps/notifier-0.0.24.tgz
+    version: 0.0.24
+generated: "2024-09-15T08:11:16.162712118Z"
