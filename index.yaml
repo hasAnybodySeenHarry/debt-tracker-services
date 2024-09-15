@@ -1,0 +1,85 @@
+apiVersion: v1
+entries:
+  expenses:
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2024-09-15T08:11:42.807565299Z"
+    description: A Helm chart for deploying the expenses service
+    digest: a76aefa73e68a8f572ddcb15a0f7acef162411781339cfe569e3982f395cfc1c
+    home: https://github.com/hasAnybodySeenHarry/debt-tracker
+    name: expenses
+    sources:
+    - https://github.com/hasAnybodySeenHarry/debt-tracker
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/hasAnybodySeenHarry/debt-tracker-services/production/apps/expenses-0.0.121.tgz
+    version: 0.0.121
+  mailer:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-09-15T12:28:19.954188954Z"
+    description: A Helm chart for deploying the mailer service
+    digest: 100ee53403ca7beca50e10a9b85f8a29289a02fef092f6997f63e9a08c6679d0
+    home: https://github.com/hasAnybodySeenHarry/mailer
+    name: mailer
+    sources:
+    - https://github.com/hasAnybodySeenHarry/mailer
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/hasAnybodySeenHarry/debt-tracker-services/production/apps/mailer-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-09-15T08:16:08.968714644Z"
+    description: A Helm chart for deploying the mailer service
+    digest: 06060b7a631813043269808856de028e28b5950a80c7bd515d66a64da2c0466f
+    home: https://github.com/hasAnybodySeenHarry/mailer
+    name: mailer
+    sources:
+    - https://github.com/hasAnybodySeenHarry/mailer
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/hasAnybodySeenHarry/debt-tracker-services/production/apps/mailer-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-09-15T08:04:37.783418143Z"
+    description: A Helm chart for deploying the mailer service
+    digest: 90817b9b765fb1f503469fdbbbe85984da778cd89d20fe724462ab064c83548d
+    home: https://github.com/hasAnybodySeenHarry/mailer
+    name: mailer
+    sources:
+    - https://github.com/hasAnybodySeenHarry/mailer
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/hasAnybodySeenHarry/debt-tracker-services/production/apps/mailer-0.0.6.tgz
+    version: 0.0.6
+  notifier:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2024-09-15T08:11:16.163380311Z"
+    description: A Helm chart for deploying the notifier service
+    digest: 8200a54589675fd2bc1c3144cfe3626a289da13dd2c3380d518010c6167e02f8
+    home: https://github.com/hasAnybodySeenHarry/notifier
+    name: notifier
+    sources:
+    - https://github.com/hasAnybodySeenHarry/notifier
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/hasAnybodySeenHarry/debt-tracker-services/production/apps/notifier-0.0.24.tgz
+    version: 0.0.24
+  throttler:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2024-09-15T08:13:15.359065068Z"
+    description: A Helm chart for deploying the throttler service
+    digest: cf30ee5f35f0ea2f90051617fae906f7e48ee4835ea320559c622932190644f0
+    home: https://github.com/hasAnybodySeenHarry/throttler
+    name: throttler
+    sources:
+    - https://github.com/hasAnybodySeenHarry/throttler
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/hasAnybodySeenHarry/debt-tracker-services/production/apps/throttler-0.0.29.tgz
+    version: 0.0.29
+generated: "2024-09-15T12:28:19.953663567Z"
